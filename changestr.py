@@ -2,8 +2,8 @@ word = "bruuh"
 
 def main():
     print("Starting")
-    rf = open("readfile.txt", "a+")
-    wf = open("writefile.txt", "w+")
+    rf = open("readfile.txt", "r")
+    wf = open("writefile.txt", "w")
     rfstr = str(rf.read())
     endstr = ''
     wordsayar = 0
