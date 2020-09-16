@@ -1,2 +1,3 @@
 # changeString
- Changes all words in a large string to specified word.
+Changes strings in specified text file.
+This script isn't made for serious purposes.
