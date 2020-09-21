@@ -2,6 +2,7 @@ import sys
 
 # Mode 0 : word mode
 # Mode 1 : i cant name this mode but it changes wOrDs LiKe ThIs
+# Mode 2 : setup
 mode = 1
 
 # Word for mode 0
@@ -11,7 +12,7 @@ def reverse(args):
     return not args
 
 def main():
-    if(mode == 0):
+    if mode == 0:
     #since python does not have switch case, i should use if else statement
         print("Starting mode",mode)
         rf = open("readfile.txt", "r+")
@@ -36,7 +37,7 @@ def main():
         wf.write(endstr)
         print(endstr)
         print("Success")
-    elif(mode == 1):
+    elif mode == 1:
         print("Starting mode",mode)
         rf = open("readfile.txt", "r+")
         wf = open("writefile.txt", "w+")
@@ -56,6 +57,10 @@ def main():
         wf.write(endstr)
         print(endstr)
         print("Success")
+    elif mode == 2:
+        print("Setup")
+        rf = open("readfile.txt", "r+")
+        wf = open("writefile.txt", "w+")
     else:
         print("Invalid mode")
         sys.exit()
