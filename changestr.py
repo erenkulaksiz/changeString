@@ -1,5 +1,3 @@
-import sys
-
 # Mode 0 : word mode
 # Mode 1 : i cant name this mode but it changes wOrDs LiKe ThIs
 # Mode 2 : setup
